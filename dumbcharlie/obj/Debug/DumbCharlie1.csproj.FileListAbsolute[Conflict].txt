@@ -1,0 +1,32 @@
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe.config
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csprojResolveAssemblyReference.cache
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Caller_Info.resources
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Properties.Resources.resources
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csproj.GenerateResource.Cache
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.exe
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.LossDecription.resources
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe.config
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.exe
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.pdb
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.pdb
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csprojResolveAssemblyReference.cache
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Caller_Info.resources
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Properties.Resources.resources
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.LossDecription.resources
+D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csproj.GenerateResource.Cache
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe.config
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.exe
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csprojResolveAssemblyReference.cache
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Caller_Info.resources
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.ParentForm.resources
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Properties.Resources.resources
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.LossDecription.resources
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csproj.GenerateResource.Cache
+C:\Users\Ladyhyrule\Google Drive\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.CallerRole.resources

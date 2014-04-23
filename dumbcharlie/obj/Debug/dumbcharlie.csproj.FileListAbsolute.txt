@@ -1,0 +1,3 @@
+C:\ToBackup\GDrive\STLCC_Stuff\IS274-650_C#_Programming\prog_projects\final_project\dumbcharlie\dumbcharlie\bin\Debug\DumbCharlie1.exe.config
+C:\ToBackup\GDrive\STLCC_Stuff\IS274-650_C#_Programming\prog_projects\final_project\dumbcharlie\dumbcharlie\obj\Debug\DumbCharlie1.exe
+C:\ToBackup\GDrive\STLCC_Stuff\IS274-650_C#_Programming\prog_projects\final_project\dumbcharlie\dumbcharlie\obj\Debug\DumbCharlie1.pdb

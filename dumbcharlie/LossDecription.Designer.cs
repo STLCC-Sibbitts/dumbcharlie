@@ -28,37 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.descriptTbox = new System.Windows.Forms.TextBox();
+            this.txtDescription = new System.Windows.Forms.TextBox();
             this.descriptLbl = new System.Windows.Forms.Label();
-            this.lossTypeTbox = new System.Windows.Forms.TextBox();
+            this.txtLossType = new System.Windows.Forms.TextBox();
             this.lossTypeLbl = new System.Windows.Forms.Label();
             this.numInvolvedLbl = new System.Windows.Forms.Label();
-            this.numInvolvedTbox = new System.Windows.Forms.TextBox();
+            this.txtNumInvolved = new System.Windows.Forms.TextBox();
             this.locLbl = new System.Windows.Forms.Label();
-            this.locTbox = new System.Windows.Forms.TextBox();
+            this.txtLocation = new System.Windows.Forms.TextBox();
             this.stateLbl = new System.Windows.Forms.Label();
-            this.stateTbox = new System.Windows.Forms.TextBox();
+            this.txtState = new System.Windows.Forms.TextBox();
             this.cityLbl = new System.Windows.Forms.Label();
-            this.cityTbox = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
             this.PDFDrespondLbl = new System.Windows.Forms.Label();
             this.witnessLbl = new System.Windows.Forms.Label();
-            this.PDFDrespondCmb = new System.Windows.Forms.ComboBox();
-            this.witnessCmb = new System.Windows.Forms.ComboBox();
+            this.comboPDFD = new System.Windows.Forms.ComboBox();
+            this.comboWitness = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.callerRole1 = new DumbCharlie1.CallerRole();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // descriptTbox
+            // txtDescription
             // 
-            this.descriptTbox.Location = new System.Drawing.Point(100, 79);
-            this.descriptTbox.Multiline = true;
-            this.descriptTbox.Name = "descriptTbox";
-            this.descriptTbox.Size = new System.Drawing.Size(588, 73);
-            this.descriptTbox.TabIndex = 0;
+            this.txtDescription.Location = new System.Drawing.Point(103, 79);
+            this.txtDescription.Multiline = true;
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(588, 73);
+            this.txtDescription.TabIndex = 0;
             // 
             // descriptLbl
             // 
@@ -69,12 +70,12 @@
             this.descriptLbl.TabIndex = 1;
             this.descriptLbl.Text = "Description";
             // 
-            // lossTypeTbox
+            // txtLossType
             // 
-            this.lossTypeTbox.Location = new System.Drawing.Point(100, 195);
-            this.lossTypeTbox.Name = "lossTypeTbox";
-            this.lossTypeTbox.Size = new System.Drawing.Size(588, 20);
-            this.lossTypeTbox.TabIndex = 2;
+            this.txtLossType.Location = new System.Drawing.Point(100, 195);
+            this.txtLossType.Name = "txtLossType";
+            this.txtLossType.Size = new System.Drawing.Size(588, 20);
+            this.txtLossType.TabIndex = 2;
             // 
             // lossTypeLbl
             // 
@@ -94,12 +95,12 @@
             this.numInvolvedLbl.TabIndex = 4;
             this.numInvolvedLbl.Text = "# of Involved";
             // 
-            // numInvolvedTbox
+            // txtNumInvolved
             // 
-            this.numInvolvedTbox.Location = new System.Drawing.Point(100, 156);
-            this.numInvolvedTbox.Name = "numInvolvedTbox";
-            this.numInvolvedTbox.Size = new System.Drawing.Size(33, 20);
-            this.numInvolvedTbox.TabIndex = 1;
+            this.txtNumInvolved.Location = new System.Drawing.Point(103, 156);
+            this.txtNumInvolved.Name = "txtNumInvolved";
+            this.txtNumInvolved.Size = new System.Drawing.Size(33, 20);
+            this.txtNumInvolved.TabIndex = 1;
             // 
             // locLbl
             // 
@@ -110,45 +111,45 @@
             this.locLbl.TabIndex = 6;
             this.locLbl.Text = "Location";
             // 
-            // locTbox
+            // txtLocation
             // 
-            this.locTbox.Location = new System.Drawing.Point(100, 234);
-            this.locTbox.Multiline = true;
-            this.locTbox.Name = "locTbox";
-            this.locTbox.Size = new System.Drawing.Size(588, 58);
-            this.locTbox.TabIndex = 3;
+            this.txtLocation.Location = new System.Drawing.Point(100, 234);
+            this.txtLocation.Multiline = true;
+            this.txtLocation.Name = "txtLocation";
+            this.txtLocation.Size = new System.Drawing.Size(588, 58);
+            this.txtLocation.TabIndex = 3;
             // 
             // stateLbl
             // 
             this.stateLbl.AutoSize = true;
-            this.stateLbl.Location = new System.Drawing.Point(97, 301);
+            this.stateLbl.Location = new System.Drawing.Point(58, 300);
             this.stateLbl.Name = "stateLbl";
             this.stateLbl.Size = new System.Drawing.Size(32, 13);
             this.stateLbl.TabIndex = 8;
             this.stateLbl.Text = "State";
             // 
-            // stateTbox
+            // txtState
             // 
-            this.stateTbox.Location = new System.Drawing.Point(135, 298);
-            this.stateTbox.Name = "stateTbox";
-            this.stateTbox.Size = new System.Drawing.Size(38, 20);
-            this.stateTbox.TabIndex = 9;
+            this.txtState.Location = new System.Drawing.Point(100, 298);
+            this.txtState.Name = "txtState";
+            this.txtState.Size = new System.Drawing.Size(38, 20);
+            this.txtState.TabIndex = 9;
             // 
             // cityLbl
             // 
             this.cityLbl.AutoSize = true;
-            this.cityLbl.Location = new System.Drawing.Point(179, 301);
+            this.cityLbl.Location = new System.Drawing.Point(144, 300);
             this.cityLbl.Name = "cityLbl";
             this.cityLbl.Size = new System.Drawing.Size(24, 13);
             this.cityLbl.TabIndex = 10;
             this.cityLbl.Text = "City";
             // 
-            // cityTbox
+            // txtCity
             // 
-            this.cityTbox.Location = new System.Drawing.Point(209, 298);
-            this.cityTbox.Name = "cityTbox";
-            this.cityTbox.Size = new System.Drawing.Size(190, 20);
-            this.cityTbox.TabIndex = 4;
+            this.txtCity.Location = new System.Drawing.Point(170, 297);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(190, 20);
+            this.txtCity.TabIndex = 4;
             // 
             // PDFDrespondLbl
             // 
@@ -168,31 +169,31 @@
             this.witnessLbl.TabIndex = 12;
             this.witnessLbl.Text = "Witnesses?";
             // 
-            // PDFDrespondCmb
+            // comboPDFD
             // 
-            this.PDFDrespondCmb.FormattingEnabled = true;
-            this.PDFDrespondCmb.Items.AddRange(new object[] {
+            this.comboPDFD.FormattingEnabled = true;
+            this.comboPDFD.Items.AddRange(new object[] {
             "",
             "Yes",
             "No",
             "Unknown"});
-            this.PDFDrespondCmb.Location = new System.Drawing.Point(296, 337);
-            this.PDFDrespondCmb.Name = "PDFDrespondCmb";
-            this.PDFDrespondCmb.Size = new System.Drawing.Size(81, 21);
-            this.PDFDrespondCmb.TabIndex = 5;
+            this.comboPDFD.Location = new System.Drawing.Point(296, 337);
+            this.comboPDFD.Name = "comboPDFD";
+            this.comboPDFD.Size = new System.Drawing.Size(81, 21);
+            this.comboPDFD.TabIndex = 5;
             // 
-            // witnessCmb
+            // comboWitness
             // 
-            this.witnessCmb.FormattingEnabled = true;
-            this.witnessCmb.Items.AddRange(new object[] {
+            this.comboWitness.FormattingEnabled = true;
+            this.comboWitness.Items.AddRange(new object[] {
             "",
             "Yes",
             "No",
             "Unknown"});
-            this.witnessCmb.Location = new System.Drawing.Point(296, 364);
-            this.witnessCmb.Name = "witnessCmb";
-            this.witnessCmb.Size = new System.Drawing.Size(81, 21);
-            this.witnessCmb.TabIndex = 6;
+            this.comboWitness.Location = new System.Drawing.Point(296, 364);
+            this.comboWitness.Name = "comboWitness";
+            this.comboWitness.Size = new System.Drawing.Size(81, 21);
+            this.comboWitness.TabIndex = 6;
             // 
             // tabControl1
             // 
@@ -208,21 +209,22 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.callerRole1);
+            this.tabPage1.Controls.Add(this.btnSave);
             this.tabPage1.Controls.Add(this.descriptLbl);
-            this.tabPage1.Controls.Add(this.witnessCmb);
-            this.tabPage1.Controls.Add(this.descriptTbox);
-            this.tabPage1.Controls.Add(this.PDFDrespondCmb);
-            this.tabPage1.Controls.Add(this.lossTypeTbox);
+            this.tabPage1.Controls.Add(this.comboWitness);
+            this.tabPage1.Controls.Add(this.txtDescription);
+            this.tabPage1.Controls.Add(this.comboPDFD);
+            this.tabPage1.Controls.Add(this.txtLossType);
             this.tabPage1.Controls.Add(this.witnessLbl);
             this.tabPage1.Controls.Add(this.lossTypeLbl);
             this.tabPage1.Controls.Add(this.PDFDrespondLbl);
             this.tabPage1.Controls.Add(this.numInvolvedLbl);
-            this.tabPage1.Controls.Add(this.cityTbox);
-            this.tabPage1.Controls.Add(this.numInvolvedTbox);
+            this.tabPage1.Controls.Add(this.txtCity);
+            this.tabPage1.Controls.Add(this.txtNumInvolved);
             this.tabPage1.Controls.Add(this.cityLbl);
             this.tabPage1.Controls.Add(this.locLbl);
-            this.tabPage1.Controls.Add(this.stateTbox);
-            this.tabPage1.Controls.Add(this.locTbox);
+            this.tabPage1.Controls.Add(this.txtState);
+            this.tabPage1.Controls.Add(this.txtLocation);
             this.tabPage1.Controls.Add(this.stateLbl);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -231,6 +233,24 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // callerRole1
+            // 
+            this.callerRole1.Location = new System.Drawing.Point(6, 16);
+            this.callerRole1.Name = "callerRole1";
+            this.callerRole1.Size = new System.Drawing.Size(737, 454);
+            this.callerRole1.TabIndex = 5;
+            this.callerRole1.Load += new System.EventHandler(this.callerRole1_Load);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(649, 431);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 14;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // tabPage2
             // 
@@ -241,14 +261,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // callerRole1
-            // 
-            this.callerRole1.Location = new System.Drawing.Point(27, 38);
-            this.callerRole1.Name = "callerRole1";
-            this.callerRole1.Size = new System.Drawing.Size(693, 412);
-            this.callerRole1.TabIndex = 13;
-            this.callerRole1.Load += new System.EventHandler(this.callerRole1_Load);
             // 
             // LossDecription
             // 
@@ -267,26 +279,27 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox descriptTbox;
+        private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Label descriptLbl;
-        private System.Windows.Forms.TextBox lossTypeTbox;
+        private System.Windows.Forms.TextBox txtLossType;
         private System.Windows.Forms.Label lossTypeLbl;
         private System.Windows.Forms.Label numInvolvedLbl;
-        private System.Windows.Forms.TextBox numInvolvedTbox;
+        private System.Windows.Forms.TextBox txtNumInvolved;
         private System.Windows.Forms.Label locLbl;
-        private System.Windows.Forms.TextBox locTbox;
+        private System.Windows.Forms.TextBox txtLocation;
         private System.Windows.Forms.Label stateLbl;
-        private System.Windows.Forms.TextBox stateTbox;
+        private System.Windows.Forms.TextBox txtState;
         private System.Windows.Forms.Label cityLbl;
-        private System.Windows.Forms.TextBox cityTbox;
+        private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.Label PDFDrespondLbl;
         private System.Windows.Forms.Label witnessLbl;
-        private System.Windows.Forms.ComboBox PDFDrespondCmb;
-        private System.Windows.Forms.ComboBox witnessCmb;
+        private System.Windows.Forms.ComboBox comboPDFD;
+        private System.Windows.Forms.ComboBox comboWitness;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private CallerRole callerRole1;
+        private System.Windows.Forms.Button btnSave;
 
     }
 }

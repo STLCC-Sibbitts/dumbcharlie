@@ -44,3 +44,14 @@ D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfT
 D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1[4-19-2014]\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csproj.GenerateResource.Cache
 D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1[4-19-2014]\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe
 D:\Alyssa\Documents\#School\Programming with C#\Assignments\DumbCharlieAndAllOfTheirFriends\DumbCharlie1[4-19-2014]\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe.config
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.exe
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.exe
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\bin\Debug\DumbCharlie1.pdb
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csprojResolveAssemblyReference.cache
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.ParentForm.resources
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.Properties.Resources.resources
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.LossDecription.resources
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.CallerRole.resources
+C:\Users\Ladyhyrule\Desktop\DumbCharlie1\DumbCharlie1\obj\Debug\DumbCharlie1.csproj.GenerateResource.Cache

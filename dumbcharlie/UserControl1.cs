@@ -12,83 +12,25 @@ namespace DumbCharlie1
 {
     public partial class CallerRole : UserControl
     {
-        
-
-
-
         public CallerRole()
         {
-            InitializeComponent();        
-            
+            InitializeComponent();
         }
-
+        //note to self, take data table out of function
+        //that is all
         public void nextBtn_Click(object sender, EventArgs e)
         {
-            Program newProgram = new Program();
-
-            
-            
-            object fNameData = txtLastName.Text, lNameData = textBox1.Text;
-
-            
-
-
-            HoldData(fNameData, lNameData);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //DataTable peopleDataTable = new DataTable();
-            //DataColumn column;
-            //DataRow row;
-
-            //column = new DataColumn();
-            //column.DataType = System.Type.GetType("System.String");
-            //column.ColumnName = "PersonOne";
-            //peopleDataTable.Columns.Add(column);
-
-            //column = new DataColumn();
-            //column.DataType = System.Type.GetType("System.String");
-            //column.ColumnName = "PersonTwo";
-            //peopleDataTable.Columns.Add(column);
-
-            //row = peopleDataTable.NewRow();
-            //row["PersonOne"] = fNameData;
-            //row["PersonTwo"] = lNameData;
-            //peopleDataTable.Rows.Add(row);
-
-            
-
+            LossDecription ldParent = this.ParentForm as LossDecription;
+            DataRow row = ldParent.peopleDataTable.NewRow();
+            row["FirstName"] = txtFirstName.Text;
+            row["LastName"] = txtLastName.Text;
+            row["PhoneNumber"] = txtPhoneNum.Text;
+            row["Extension"] = txtExt.Text;
+            row["CallerRole"] = txtCallerRole.Text;
+            row["Other"] = txtOther.Text;
+            ldParent.peopleDataTable.Rows.Add(row);
             this.Visible = false;
-        }
-         
 
+        }         
     }
 }

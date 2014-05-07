@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtPhoneNum = new System.Windows.Forms.TextBox();
+            this.txtExt = new System.Windows.Forms.TextBox();
+            this.txtCallerRole = new System.Windows.Forms.TextBox();
+            this.txtOther = new System.Windows.Forms.TextBox();
             this.fNameLbl = new System.Windows.Forms.Label();
             this.lNameLbl = new System.Windows.Forms.Label();
             this.phoneLbl = new System.Windows.Forms.Label();
@@ -45,47 +45,47 @@
             this.callerGbx.SuspendLayout();
             this.SuspendLayout();
             // 
+            // txtFirstName
+            // 
+            this.txtFirstName.Location = new System.Drawing.Point(97, 31);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(183, 20);
+            this.txtFirstName.TabIndex = 0;
+            // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(97, 31);
+            this.txtLastName.Location = new System.Drawing.Point(97, 57);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(183, 20);
-            this.txtLastName.TabIndex = 0;
+            this.txtLastName.TabIndex = 1;
             // 
-            // textBox1
+            // txtPhoneNum
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtPhoneNum.Location = new System.Drawing.Point(97, 83);
+            this.txtPhoneNum.Name = "txtPhoneNum";
+            this.txtPhoneNum.Size = new System.Drawing.Size(100, 20);
+            this.txtPhoneNum.TabIndex = 2;
             // 
-            // textBox2
+            // txtExt
             // 
-            this.textBox2.Location = new System.Drawing.Point(97, 83);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 0;
+            this.txtExt.Location = new System.Drawing.Point(233, 83);
+            this.txtExt.Name = "txtExt";
+            this.txtExt.Size = new System.Drawing.Size(47, 20);
+            this.txtExt.TabIndex = 3;
             // 
-            // textBox3
+            // txtCallerRole
             // 
-            this.textBox3.Location = new System.Drawing.Point(233, 83);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(47, 20);
-            this.textBox3.TabIndex = 0;
+            this.txtCallerRole.Location = new System.Drawing.Point(392, 29);
+            this.txtCallerRole.Name = "txtCallerRole";
+            this.txtCallerRole.Size = new System.Drawing.Size(183, 20);
+            this.txtCallerRole.TabIndex = 4;
             // 
-            // textBox4
+            // txtOther
             // 
-            this.textBox4.Location = new System.Drawing.Point(392, 29);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(183, 20);
-            this.textBox4.TabIndex = 0;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(392, 55);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(183, 20);
-            this.textBox5.TabIndex = 0;
+            this.txtOther.Location = new System.Drawing.Point(392, 55);
+            this.txtOther.Name = "txtOther";
+            this.txtOther.Size = new System.Drawing.Size(183, 20);
+            this.txtOther.TabIndex = 5;
             // 
             // fNameLbl
             // 
@@ -146,24 +146,24 @@
             this.nextBtn.Location = new System.Drawing.Point(500, 85);
             this.nextBtn.Name = "nextBtn";
             this.nextBtn.Size = new System.Drawing.Size(75, 23);
-            this.nextBtn.TabIndex = 2;
+            this.nextBtn.TabIndex = 6;
             this.nextBtn.Text = "Next";
             this.nextBtn.UseVisualStyleBackColor = true;
             this.nextBtn.Click += new System.EventHandler(this.nextBtn_Click);
             // 
             // callerGbx
             // 
-            this.callerGbx.Controls.Add(this.textBox4);
+            this.callerGbx.Controls.Add(this.txtCallerRole);
             this.callerGbx.Controls.Add(this.nextBtn);
-            this.callerGbx.Controls.Add(this.txtLastName);
+            this.callerGbx.Controls.Add(this.txtFirstName);
             this.callerGbx.Controls.Add(this.othLbl);
-            this.callerGbx.Controls.Add(this.textBox1);
+            this.callerGbx.Controls.Add(this.txtLastName);
             this.callerGbx.Controls.Add(this.roleLbl);
-            this.callerGbx.Controls.Add(this.textBox2);
+            this.callerGbx.Controls.Add(this.txtPhoneNum);
             this.callerGbx.Controls.Add(this.extLbl);
-            this.callerGbx.Controls.Add(this.textBox3);
+            this.callerGbx.Controls.Add(this.txtExt);
             this.callerGbx.Controls.Add(this.phoneLbl);
-            this.callerGbx.Controls.Add(this.textBox5);
+            this.callerGbx.Controls.Add(this.txtOther);
             this.callerGbx.Controls.Add(this.lNameLbl);
             this.callerGbx.Controls.Add(this.fNameLbl);
             this.callerGbx.Location = new System.Drawing.Point(44, 115);
@@ -187,12 +187,12 @@
 
         #endregion
 
+        private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.TextBox txtLastName;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtPhoneNum;
+        private System.Windows.Forms.TextBox txtExt;
+        private System.Windows.Forms.TextBox txtCallerRole;
+        private System.Windows.Forms.TextBox txtOther;
         private System.Windows.Forms.Label fNameLbl;
         private System.Windows.Forms.Label lNameLbl;
         private System.Windows.Forms.Label phoneLbl;

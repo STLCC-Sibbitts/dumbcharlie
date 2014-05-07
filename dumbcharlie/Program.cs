@@ -13,44 +13,57 @@ namespace DumbCharlie1
         /// </summary>
         [STAThread]
 
-        public static void HoldData(Object fData, Object lData)
-        {
-            DataTable peopleDataTable = new DataTable();
-            DataColumn column;
-            DataRow row;
-            // tring to make a method to put into "UserControll1 I.E. CallerRole to add data to DataTable
-            // set objects to empty space, but would be unsuccessful due to having to over write information 
-
-            column = new DataColumn();
-            column.DataType = System.Type.GetType("System.String");
-            column.ColumnName = "PersonOne";
-            peopleDataTable.Columns.Add(column);
-
-            column = new DataColumn();
-            column.DataType = System.Type.GetType("System.String");
-            column.ColumnName = "PersonTwo";
-            peopleDataTable.Columns.Add(column);
-
-            // maybe assign the rows out of the method to include text box input
-            // or make text box information public?
-            // pass arguments thorugh?? 
-
-            row = peopleDataTable.NewRow();
-            row["PersonOne"] = fData;
-            row["PersonTwo"] = lData;
-            peopleDataTable.Rows.Add(row);
-        }
         static void Main()
-
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Caller_Info());
-            Application.Run(new LossDecription());
-            //Caller_Info CI = new Caller_Info();
-            //CI.Show();
-
-
+            LossDecription LDecription = new LossDecription();
+            DataTable dumbCharlieDataTable = HoldDataMethod();
+            LDecription.peopleDataTable = dumbCharlieDataTable;
+            LDecription.ShowDialog();
+            // DUMP data that is in dumbCharlieDataTable
         }
+        public static DataTable HoldDataMethod()
+        {
+            DataTable peopleDataTable = new DataTable();
+            DataColumn column;
+            
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "FirstName";
+            peopleDataTable.Columns.Add(column);
+            //this vvv is the same as that ^^^
+            peopleDataTable.Columns.Add(new DataColumn("LastName", System.Type.GetType("System.String")));
+            peopleDataTable.Columns.Add(new DataColumn("PhoneNumber", System.Type.GetType("System.String")));
+            peopleDataTable.Columns.Add(new DataColumn("Extension", System.Type.GetType("System.String")));
+            peopleDataTable.Columns.Add(new DataColumn("CallerRole", System.Type.GetType("System.String")));
+            peopleDataTable.Columns.Add(new DataColumn("Other", System.Type.GetType("System.String")));
+
+            return peopleDataTable;
+        }
+        //public static DataTable WriteDataToTxt()
+        //{
+        //    using (System.IO.StreamWriter file = new System.IO.StreamWriter("../../DC" + DateTime.Now.ToString("[yyyy-MM-dd-HH-mm-ss]") + ".txt", true))
+        //    {
+        //        //LossDecription LossDecript = new LossDecription();
+        //        //DataTable CharlieDataTable = HoldDataMethod();
+        //        //LossDecript.peopleDataTable = CharlieDataTable;
+        //        Program.HoldDataMethod();
+        //        DataTable CharlieDataTable = HoldDataMethod;
+        //        foreach (DataRow row in CharlieDataTable.Rows)
+        //        {
+        //            foreach (string col in row.ItemArray)
+        //            {
+        //                file.Write(col + "\t");
+        //            }
+        //            file.WriteLine();
+        //        }
+        //        return CharlieDataTable;
+        //    }
+
+            
+        //}
+
+        
     }
 }
